@@ -40,6 +40,7 @@ module FakeS3
       puts "Is Path Style: #{@is_path_style}"
       puts "Request Method: #{@method}"
       puts "Bucket: #{@bucket}"
+      puts "S3 Bucket: #{@bucket}"
       puts "Object: #{@object}"
       puts "Src Bucket: #{@src_bucket}"
       puts "Src Object: #{@src_object}"
