@@ -53,7 +53,7 @@ https://supso.org/projects/fake-s3
         abort "You must specify a root to use a file store (the current default)"
       end
 
-      hostname = 's3.amazonaws.com'
+      hostname = 'fake - s3.amazonaws.com'
       if options[:hostname]
         hostname = options[:hostname]
         # In case the user has put a port on the hostname
